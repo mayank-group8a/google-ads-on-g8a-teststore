@@ -27,6 +27,8 @@ const body = JSON.stringify({
 fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
         .then((response) => response.json())
         .then((parsedState) => {
+          console.log("parsedState ", parsedState);
+          gtag_report_conversion('',parsedState);
           this.cartNotification.renderContents(parsedState);
           Shopify.AnnouncementAdvanced.update();
         })

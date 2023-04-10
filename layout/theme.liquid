@@ -120,17 +120,31 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {%- render 'bold-subscription-widget' -%}
 
-  {% comment %}
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y01JEE1MB"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10795950559"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-1Y01JEE1MB');
+  gtag('config', 'AW-10795950559');
 </script>
-  {% endcomment %}
+<!-- Event snippet for Add to cart conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url,variant) {
+    var callback = function () {
+      if (typeof url != 'undefined' && url !== '') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-10795950559/gOW2CK70y4IDEN_D9Jso',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 </head>
 
   <body>

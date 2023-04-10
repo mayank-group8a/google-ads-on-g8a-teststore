@@ -389,7 +389,8 @@ function quickView() {
               },
                 null,
                 "json"
-              ).done(function () {
+              ).done(function (response) {
+                gtag_report_conversion('',response);
                 $('#quick-view .product-form form .product-form__buttons .product-form__submit').removeClass('loading').prop('disabled', false);
                 $('#quick-view .qv-add-to-cart-response').addClass('success').fadeIn().html('<span>' + $('.qv-product-title').text() + ' has been added to your cart. <a href="/cart">Click here to view your cart.</a>');
                 setTimeout(function() {
