@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "variantSwatch": "metafieldsColorImage",
+            "inventory_enable": true,
+            "preordermsg": "Available Starting [date]",
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "39818039-7a42-4251-a5a2-e9828d84c0d2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How it Fits",
+            "content": "<p>{{ product.metafields.description.how_it_fits | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "4e318ef3-27ca-4b56-ae1e-daa646d5886d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Composition & Care",
+            "content": "<p>{{ product.metafields.description.composition_care | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "39818039-7a42-4251-a5a2-e9828d84c0d2",
+        "4e318ef3-27ca-4b56-ae1e-daa646d5886d"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": "dynamic",
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

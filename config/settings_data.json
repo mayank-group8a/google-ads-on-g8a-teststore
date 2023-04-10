@@ -1,0 +1,194 @@
+{
+  "current": {
+    "colors_accent_1": "#000000",
+    "colors_accent_2": "#532c9d",
+    "announcementposition": "above",
+    "collection_color_swatchesProductpage": true,
+    "productquickView": true,
+    "codehead": "<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:\"137007747\"};o.q=w[u],w[u]=new UET(o),w[u].push(\"pageLoad\")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!==\"loaded\"&&s!==\"complete\"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,\"script\",\"\/\/bat.bing.com\/bat.js\",\"uetq\");<\/script>\n\n\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https:\/\/www.googletagmanager.com\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WJ6KTKV');<\/script>\n<!-- End Google Tag Manager -->",
+    "codebody": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https:\/\/www.googletagmanager.com\/ns.html?id=GTM-WJ6KTKV\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"><\/iframe><\/noscript>\n<!-- End Google Tag Manager (noscript) -->",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "b2ac72b7-f3bf-4b80-b890-73c9e468007d": {
+            "type": "mega_menu",
+            "settings": {
+              "mega_menu": "Store",
+              "linksLimits": 6,
+              "submenu_1": true,
+              "submenu_title_1": "CATALOG",
+              "submenu_link_1": "",
+              "submenu_2": true,
+              "submenu_title_2": "SHOP PAGE",
+              "submenu_link_2": "",
+              "submenu_3": true,
+              "submenu_title_3": "PRODUCTS PAGE",
+              "submenu_link_3": "",
+              "submenu_4": false,
+              "submenu_title_4": "MENU - 4",
+              "submenu_link_4": "",
+              "bannerShow": true,
+              "banner_url": "shopify:\/\/collections\/womens-new-arrivals",
+              "banner_image_Show1": true,
+              "banner_url_1": "shopify:\/\/collections\/shirt",
+              "banner_image_Show2": true,
+              "banner_url_2": "shopify:\/\/collections\/t-shirt",
+              "product_list_title": "NEW PRODUCTS",
+              "submenu_product_1": "1-2-sleeve-v-neck-tee-w-pocket",
+              "submenu_product_2": "",
+              "submenu_product_3": "3-4-sleeve-tulip-back-button-front-top",
+              "submenu_product_4": ""
+            }
+          }
+        },
+        "block_order": [
+          "b2ac72b7-f3bf-4b80-b890-73c9e468007d"
+        ],
+        "settings": {
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "about",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_position": "normal-view",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "advanced",
+            "settings": {
+              "announcement_link": "shopify:\/\/collections\/all",
+              "amout_1": true,
+              "amout_offer_1": 5000,
+              "text_offer_1": "Free shipping for orders over <span class=\"count\">[[ count ]]<\/span>.",
+              "text_offer_away_1": "You are <span class=\"count\">[[ count ]]<\/span> away from Free shipping.",
+              "text_offer_qualified_1": "Congratulations! You've got free shipping"
+            }
+          },
+          "announcement-bar-1": {
+            "type": "text",
+            "settings": {
+              "announcement_text": "Announcement Text - 1",
+              "announcement_text_mobile": "Announcement Text Mobile - 1",
+              "announcement_link": ""
+            }
+          },
+          "announcement-bar-2": {
+            "type": "text",
+            "settings": {
+              "announcement_text": "Announcement Text - 1",
+              "announcement_text_mobile": "Announcement Text Mobile - 1",
+              "announcement_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0",
+          "announcement-bar-1",
+          "announcement-bar-2"
+        ],
+        "settings": {
+        }
+      },
+      "region-modal-section": {
+        "type": "region-modal-section",
+        "blocks": {
+          "2690ba6c-5f51-4c87-9cbf-8fcc26d526ee": {
+            "type": "Store",
+            "settings": {
+              "storeTitle": "Group 8a",
+              "countryCode": "us",
+              "link": "https:\/\/group-8a-dev.myshopify.com"
+            }
+          },
+          "c82a3f28-9d7b-4356-af8b-64ec4618cce8": {
+            "type": "Store",
+            "settings": {
+              "storeTitle": "Group 8a Canada",
+              "countryCode": "ca",
+              "link": "https:\/\/group-8a-dev.myshopify.ca"
+            }
+          },
+          "85c0c374-7be6-41f9-ac8f-eff5ab3fa401": {
+            "type": "Store",
+            "settings": {
+              "storeTitle": "Group 8a UK",
+              "countryCode": "gb",
+              "link": "https:\/\/group-8a-dev.myshopify.uk"
+            }
+          }
+        },
+        "block_order": [
+          "2690ba6c-5f51-4c87-9cbf-8fcc26d526ee",
+          "c82a3f28-9d7b-4356-af8b-64ec4618cce8",
+          "85c0c374-7be6-41f9-ac8f-eff5ab3fa401"
+        ],
+        "settings": {
+          "flagSize": 48,
+          "btnflagSize": 38
+        }
+      },
+      "popup_newsletter": {
+        "type": "popup_newsletter",
+        "settings": {
+          "display_popup_newsletter": "true",
+          "home_page_only": true,
+          "logo_max_width": 175,
+          "LogoImg_img": "shopify:\/\/shop_images\/logo.png",
+          "popup_newsletter_title": "Popup Newsletter Title",
+          "popup_newsletter_message": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
+          "popup_text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+          "close_text": "No thanks",
+          "popup_seconds": 0,
+          "popup_days": 25,
+          "popupSize": "500",
+          "newsletterStyle": "style3",
+          "display_popup_imgstyle": "static",
+          "banner_width": 40,
+          "headingPosition": "bellow",
+          "contentAlightment": "right",
+          "pop_up_newsletter_bg": "#9e3636",
+          "show_overlay": true,
+          "overlay_color": "#ffffff",
+          "overlay_opacity": 85,
+          "popup_TitleColor": "#000000",
+          "popup_Subtitle": "#000000",
+          "popup_textColor": "#000000",
+          "modalPadding": 15,
+          "formPadding": 15,
+          "newsletter_form_action": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
